@@ -1,6 +1,6 @@
 {
   "friendly_name": "Android Studio",
-  "image_src": "android-studio.png",
+  "image_src": "android-studio.svg",
   "description": "Android Studio Program",
   "name": "frongilloadriano/android-studio-kasm:tagname",
   "cores": 2,
