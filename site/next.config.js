@@ -2,7 +2,7 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
+    name: 'Personal Registry',
     description: 'My Personal kasm registry.',
     icon: '/img/logo.svg',
     listUrl: 'https://adri6412.github.io/kasm-registry/',
