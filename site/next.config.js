@@ -3,9 +3,9 @@
 const nextConfig = {
   env: {
     name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    description: 'My Personal kasm registry.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://adri6412.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
