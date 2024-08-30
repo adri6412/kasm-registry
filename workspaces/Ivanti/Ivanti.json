@@ -1,0 +1,31 @@
+{
+  "description": "Ivanti Client",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "chromium.png",
+  "name": "adri641/kasm-ivanti",
+  "run_config": {
+    "hostname": "ivanti"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "IvantiClient",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2170
+}
