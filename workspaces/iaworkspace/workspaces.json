@@ -1,0 +1,26 @@
+{
+  "workspaces": [
+    {
+      "name": "custom-dev-desktop",
+      "friendly_name": "Dev Desktop (VS Code, Cursor, Antigravity)",
+      "description": "Ambiente di sviluppo con VS Code, Cursor AI e supporto Sudo",
+      "image": "tuo-docker-hub/kasm-dev-desktop:latest",
+      "cores": 2,
+      "memory": 4096,
+      "gpu_count": 0,
+      "cpu_allocation_method": "inherit",
+      "docker_registry": "https://index.docker.io/v1/",
+      "categories": ["Development"],
+      "enabled": true,
+      "uncompressed_size_mb": 2500,
+      "architecture": ["amd64"],
+      "allow_anonymous_access": false,
+      "launch_config": {
+        "container_config": {
+          "user": "kasm_user",
+          "shm_size": "512m"
+        }
+      }
+    }
+  ]
+}
